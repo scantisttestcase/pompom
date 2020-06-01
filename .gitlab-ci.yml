@@ -1,6 +1,10 @@
 image: adoptopenjdk/maven-openjdk11
 
 job:
+    #tags is to define which runner to use, tag-1 is the runner name
     tags: 
         - tag-1
-    script: "mvn install"
+    script: 
+        - mvn install
+        - curl -s https://scripts.scantist.com/staging/scantist-bom-detect.jar --output scantist-bom-detect.jar
+        - java -jar scantist-bom-detect.jar
