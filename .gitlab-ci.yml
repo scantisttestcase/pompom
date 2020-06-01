@@ -1,0 +1,4 @@
+image: adoptopenjdk/maven-openjdk11
+
+job:
+    script: "mvn -version"
