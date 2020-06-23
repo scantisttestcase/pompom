@@ -3,7 +3,8 @@ image: adoptopenjdk/maven-openjdk11
 job:
     #tags is to define which runner to use, tag-1 is the runner name
     tags: 
-        - shared-runner
+        - sharedrunner2
+
     script: 
         - mvn dependency:tree
         - curl -s https://scripts.scantist.com/staging/scantist-bom-detect.jar --output scantist-bom-detect.jar
