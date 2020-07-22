@@ -2,8 +2,6 @@ image: adoptopenjdk/maven-openjdk11
 
 job:
     #tags is to define which runner to use, tag-1 is the runner name
-    tags: 
-        - 1d6b581d
 
     script: 
         - mvn dependency:tree
