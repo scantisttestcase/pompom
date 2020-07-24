@@ -23,6 +23,11 @@
   </properties>
 	
   <dependencies>
+    <dependency>
+	    <groupId>org.apache.struts</groupId>
+	    <artifactId>struts2-core</artifactId>
+	    <version>${struts2.version}</version>
+	   </dependency>
 	  <dependency>
       <groupId>com.google.code.findbugs</groupId>
       <artifactId>jsr305</artifactId>
