@@ -60,9 +60,4 @@
     <version>1.2.14</version>
 </dependency>	  
   </dependencies>
-<scm>
-<connection>scm:hg:http://hg.python.org/jython</connection>
-<developerConnection>scm:hg:ssh://hg@hg.python.org/jython</developerConnection>
-<url>http://hg.python.org/jython</url>
-</scm>
 </project>
