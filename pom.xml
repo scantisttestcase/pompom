@@ -26,12 +26,12 @@
     <dependency>
     <groupId>io.netty</groupId>
     <artifactId>netty-codec-http</artifactId>
-    <version>4.1.32.Final</version>
+    <version>4.1.46.Final</version>
 </dependency>
     <dependency>
     <groupId>org.apache.hadoop</groupId>
     <artifactId>hadoop-common</artifactId>
-    <version>2.2.0</version>
+    <version>3.3.0</version>
 </dependency>
    <dependency>
     <groupId>org.apache.cxf</groupId>
@@ -41,7 +41,7 @@
    <dependency>
     <groupId>org.java-websocket</groupId>
     <artifactId>Java-WebSocket</artifactId>
-    <version>1.4.0</version>
+    <version>1.5.0</version>
 </dependency>
    <dependency>
     <groupId>org.apache.karaf</groupId>
